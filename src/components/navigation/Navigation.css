@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    padding: 15px;
+
+}
+
+.active-menu-link {
+    border-bottom: 1px solid green;
+}
+
+.default-menu-link {
+    border-bottom: none;
+}
